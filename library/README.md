@@ -25,3 +25,21 @@ We have created 2 modules and one **init** file in my_geometry_library.
 <li>write version of library in its main __init__ file using __version__ = 0.1</li>
 <li>write setup file properly</li>
 </ul>
+
+<h1>Installation</h1>
+Go to location of library directory where setup file is and enter command : 'pip install .' and USe it
+
+<h1>Publish the File</h1>
+<ul>
+  <li>Go to location of library directory where setup file is and enter command : 'python setup.py bdist_wheel' </li>
+  <li> upload the The file with name "---.whl" file in dist directory using pypi.
+  <ul>
+    <li> Use 'pip install twine' to install twine which helps you to upload your project in Pypi</li>
+    ![image](https://github.com/Tarun08091997/Python-Learning/assets/61690911/32339d9c-af6c-437d-b848-8dad308e472d)
+
+    <li>Go to main library folder and use 'twine upload dist/*' . To upload everything of dist folder in pypi</li>
+  </ul>
+  </li>
+</ul>
+
+
